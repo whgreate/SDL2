@@ -10,23 +10,23 @@
 + I'm a newbie and I'm interested in compiling from source.
 
 
-# Compile SDL2 2.0.14 (if you havn't already)
+# Compile SDL2 (2.0.14 if you havn't already)
 + [installation reference](https://wiki.libsdl.org/Installation#Mac_OS_X)
-+ [installation reference]: your_sdl2_download_postision/doc/README-macos.md
++ [installation reference](your_sdl2_download_postision/doc/README-macos.md)
 + download [gcc-fat.sh](https://hg.libsdl.org/SDL/raw-file/a8e6474302ea/build-scripts/gcc-fat.sh)
 + ` cd your_sdl2_download_postision/;mkdir build ; cd build ; CC=/your_gcc_fat_sh_download_postision/gcc-fat.sh ../configure ; make; make install`
 + Then check your installed sdl2 lib in your MacOS:`ls /usr/local/lib/libSDL2*`
 
 # Compile SDL2_image-2.0.5
-+ [download](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.5.zip) 
++ [Download](https://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.5.zip) 
 + `cd SDL2_image-2.0.5 & mkdir build & cd build & ../configure & make & sudo make install`
 
 # Compile SDL2_mixer-2.0.4
-+ [download](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.zip)
++ [Download](https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-2.0.4.zip)
 + `cd SDL2_mixer-2.0.4 & mkdir build & cd build & ../configure & make & sudo make install`
 
 # Compile SDL2_ttf-2.0.15
-+ [download](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.15.zip) 
++ [Download](https://www.libsdl.org/projects/SDL_ttf/release/SDL2_ttf-2.0.15.zip) 
 + `cd SDL2_ttf-2.0.15 & mkdir build & cd build & ../configure & make & sudo make install`
 + issue: `The freetype-config script installed by FreeType 2 could not be found.`. solution:`brew install freetype`
 
@@ -34,3 +34,6 @@
 # BOOM! You can build your shoot tutorials!
 + [shooter tutorial 01](https://www.parallelrealities.co.uk/tutorials/shooter/shooter1.php) 
 + `cd shoot01 && make && ./shooter01 `
+
+# Other REF
++ [Setting up SDL 2 on iOS with XCode 9.2](https://lazyfoo.net/tutorials/SDL/52_hello_mobile/ios_mac/index.php)
