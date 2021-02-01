@@ -1,5 +1,5 @@
 # Basic guide of compiling SDL2 from source on OSX for newbies 👾
-![shooter demo](https://www.parallelrealities.co.uk/images/tutorials/shooter/shooter01.png)
+![shooter demo](https://www.parallelrealities.co.uk/images/tutorials/shooter/shooter05.png)
 
 + (including SDL2, SDL2 Mixer, SDL2 Image, and SDL2 TTF) 
 
@@ -10,9 +10,9 @@
 + I'm a newbie and I'm interested in compiling from source.
 
 
-# Compile SDL2 (if you havn't already)
-+ [installation reference 1](https://wiki.libsdl.org/Installation#Mac_OS_X)
-+ installation reference 2: your_sdl2_download_postision/doc/README-macos.md
+# Compile SDL2 2.0.14 (if you havn't already)
++ [installation reference](https://wiki.libsdl.org/Installation#Mac_OS_X)
++ [installation reference]: your_sdl2_download_postision/doc/README-macos.md
 + download [gcc-fat.sh](https://hg.libsdl.org/SDL/raw-file/a8e6474302ea/build-scripts/gcc-fat.sh)
 + ` cd your_sdl2_download_postision/;mkdir build ; cd build ; CC=/your_gcc_fat_sh_download_postision/gcc-fat.sh ../configure ; make; make install`
 + Then check your installed sdl2 lib in your MacOS:`ls /usr/local/lib/libSDL2*`
